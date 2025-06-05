@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dashboard-header {
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 48px #0000000f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-header .dashboard-title {
+  margin-left: 45.28px;
+  font: normal normal 900 20px/27px Avenir;
+  color: #5861ae;
+  text-transform: uppercase;
+}
+
+.dashboard-header .li-dashboard-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-header .li-dashboard-links ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 113px;
+}
+
+.dashboard-header .li-dashboard-links ul li a {
+  font: normal normal normal 14px/19px Avenir;
+  letter-spacing: 1.05px;
+  color: #565657;
+  text-transform: capitalize;
+}
+
+.dashboard-header .li-dashboard-links ul li:last-child {
+  width: 214px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  justify-content: left;
+  padding-left: 22.5px;
+  color: white;
+  font: normal normal medium 16px/22px Avenir;
+  letter-spacing: 1.2px;
+}
+
+.dashboard-header .li-dashboard-links ul li:last-child a {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.dashboard-header .li-dashboard-links ul li:last-child a span:last-child {
+  margin-left: 15px;
+  font: normal normal medium 16px/22px Avenir;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.dashboard-header .li-dashboard-links ul li:last-child a {
+  font: normal normal medium 16px/22px Avenir;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* dashboard Content */
+
+.dashboard-content {
+  display: flex;
+}
+
+.dashboard-content .left {
+  width: 57px;
+  min-height: 933px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+}
+
+.dashboard-content .left ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-content .left ul li {
+  list-style: none;
+  width: 22px;
+  height: 22px;
+}
+
+.dashboard-content .left ul .home {
+  background: transparent url("../../../public/images/home-run\ \(1\).svg") 0%
+    0% no-repeat padding-box;
+  margin-top: 39.3px;
+}
+
+.dashboard-content .left ul .create-post {
+  background: transparent url("../../../public/images/more.svg") 0% 0% no-repeat
+    padding-box;
+  margin-top: 41.35px;
+  margin-bottom: 25.85px;
+}
+
+.dashboard-content .left ul a:last-child li {
+  background-color: white;
+  width: 57px;
+  height: 47px;
+  background-position: center;
+}
+
+.dashboard-content .left ul .display-post {
+  background: transparent url("../../../public/images/list.svg") 0% 0% no-repeat
+    padding-box;
+  width: 25px;
+  height: 18px;
+}
+
+/* dashboard-footer */
+
+.dashboard-footer {
+  height: 50px;
+  background: #182838 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+}
+
+.dashboard-footer {
+  height: 50px;
+  background: #182838;
+  border: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-footer p {
+  font: normal normal normal 12px/24px Avenir;
+  letter-spacing: 0.12px;
+  color: #ffffff;
+}
+
+.dashboard-footer p:first-child {
+  width: 30px;
+}
+
+.dashboard-footer img {
+  width: 14px;
+  height: 14px;
+  margin: 0px 9px 0px 2px;
+}
+
+.dashboard-content .right {
+  /* background-color: red; */
+  width: 100%;
+  padding-left: 51.28px;
+  padding-right: 37px;
+  padding-top: 50.3px;
+  padding-bottom: 26.1px;
+}
+
+
+/* updated */
+/* Dropdown Container */
+.user-dropdown-container {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Flex display for image + name */
+.user-display {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for username next to image */
+.user-name {
+  margin-left: 15px;
+  color: white;
+  font: normal normal medium 16px/22px Avenir;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+
+/* Dropdown box styling */
+.user-dropdown {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  background-color: #5861AE;
+  z-index: 10;
+  min-width: 237px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* Logout button styling */
+.logout-button {
+  background: none;
+  border: none;
+  margin-left: 32px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

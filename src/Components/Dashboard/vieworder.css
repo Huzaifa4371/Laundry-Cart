@@ -1,0 +1,450 @@
+.order-veiw .head-left-vieworder .order-num {
+  text-align: start;
+  font: normal normal 600 18px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #1e2022;
+  text-transform: capitalize;
+}
+
+.viewimg {
+  width: 18px;
+  height: 17px;
+}
+
+.order-list-view table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.order-list-view thead {
+  background-color: black;
+  color: white;
+  height: 35px;
+}
+
+.order-list-view table thead tr th {
+  font: normal normal normal 12px/48px Open Sans;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.order-list-view table thead tr th:first-child {
+  padding-left: 15px;
+  width: 105px;
+}
+
+.order-list-view table thead tr th:nth-child(2) {
+  width: 200px;
+}
+
+.order-list-view table thead tr th:nth-child(3) {
+  width: 140px;
+}
+
+.order-list-view table thead tr th:nth-child(4) {
+  width: 150px;
+}
+
+.order-list-view table thead tr th:nth-child(5) {
+  width: 180px;
+}
+
+.order-list-view table thead tr th:nth-child(6) {
+  width: 140px;
+}
+
+.order-list-view table thead tr th:nth-child(7) {
+  width: 135px;
+}
+
+.order-list-view table thead tr th:nth-child(8) {
+  width: 130px;
+}
+
+.order-list-view table thead tr th:nth-child(9) {
+  width: 120px;
+}
+
+.order-list-view table thead tr th:last-child {
+  width: 60px;
+}
+
+.order-list-view table tbody tr {
+  font: normal normal normal 12px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #1e2022;
+  height: 50px;
+}
+
+.order-list-view table tbody tr td:first-child {
+  padding-left: 15px;
+}
+
+.order-list-view table tbody tr:nth-child(odd) {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #eaedf0;
+}
+
+.order-list-view table tbody tr:nth-child(even) {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border: 1px solid #eaedf0;
+}
+
+.order-list-view table tbody tr td:last-child button {
+  background-color: transparent;
+  border: none;
+}
+
+.popupwin-vieworder-details {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 926px;
+  height: 400px;
+  /* background: #FFFFFF 0% 0% no-repeat padding-box;\ */
+  background-color: red;
+}
+
+.summarry-div {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 28px;
+  font: normal normal normal 22px/20px Open Sans;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.popupwin-vieworder-details .head div:first-child div:last-child button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.head-location {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  height: 98px;
+  background: #f4f9ff 0% 0% no-repeat padding-box;
+}
+
+.head-location div:first-child {
+  padding-left: 43px;
+  width: 250px;
+}
+
+.head-location div:nth-child(2) {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cancelorderbtn {
+  background-color: transparent;
+  color: #eb1717;
+  border: none;
+}
+
+.head-left-vieworder {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-left-vieworder .search button {
+  width: 107px;
+  height: 32px;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #5861ae;
+  margin-right: 26px;
+}
+
+.head-left-vieworder .search img {
+  position: absolute;
+  top: 15px;
+}
+
+.head-left-vieworder .search input {
+  width: 200px;
+  height: 21px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.head-left-vieworder .search input:hover {
+  width: 200px;
+  height: 25px;
+}
+
+.order-details {
+  background-color: #ffffff;
+  text-align: left;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #707070;
+  padding-left: 45px;
+  padding-right: 46px;
+}
+
+.order-details p {
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.42px;
+  color: #3b3737;
+  padding-top: 28.75px;
+  margin-bottom: 24px;
+}
+
+.order-details div div {
+  height: 61px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: left;
+}
+
+.order-details div div p:first-child {
+  min-width: 270px;
+  font: normal normal normal 18px/24px Open Sans;
+  letter-spacing: 0.43px;
+  color: #1b2734;
+}
+
+.order-details div div p:nth-child(2) {
+  text-align: left;
+  min-width: 376px;
+  font: italic normal normal 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+.order-details div div p:nth-child(3) {
+  text-align: left;
+  min-width: 115px;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+.order-details div div p:last-child {
+  font: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.48px;
+  color: #5861ae;
+}
+
+.value {
+  justify-items: right;
+  text-align: right;
+}
+
+.value p:not(:last-child) {
+  border-bottom: 1px solid;
+  padding: 0;
+  margin: 0;
+  width: 292px;
+  height: 46px;
+  align-content: center;
+}
+
+.value p:not(:last-child) span:last-child {
+  margin-right: 50px;
+  font: normal normal 600 18px/24px Open Sans;
+  letter-spacing: 0.43px;
+  color: #272727;
+}
+
+.value p:not(:last-child) span:first-child {
+  margin-right: 50px;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+.value p:nth-child(2) {
+  border: none;
+}
+
+.value p:last-child {
+  width: 100%;
+  height: 49px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+}
+
+.value p:last-child span:last-child {
+  font: normal normal bold 22px/30px Open Sans;
+  letter-spacing: 0.53px;
+  color: #ffffff;
+  margin-right: 39px;
+}
+
+.value p:last-child span:first-child {
+  font: normal normal normal 18px/24px Open Sans;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Open Sans;
+  letter-spacing: 0.43px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-right: 43px;
+}
+
+.order-details p {
+  margin-bottom: 0px;
+}
+
+.address-details-view {
+  background-color: #ffffff;
+  height: 223px;
+  padding-top: 18px;
+  padding-left: 35px;
+}
+
+.address-details-view p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.address-details-view div {
+  width: 236px;
+  height: 85px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  padding: 6px 29px 9px 9px;
+  text-align: left;
+}
+
+.address-details-view div p {
+  margin: 0;
+  padding: 0;
+}
+
+.address-details-view div p:first-child {
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0.18px;
+  color: #3e3f40;
+}
+
+.address-details-view div p:last-child {
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: #3e3f40;
+}
+
+.btndiv-cancelorder {
+  width: 926px;
+  height: 70px;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  box-shadow: 0px -3px 6px #00000015;
+  align-content: center;
+  text-align: right;
+}
+
+.btndiv-cancelorder button {
+  margin-right: 30.25px;
+  width: 150px;
+  height: 42px;
+  background: #f41313 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font: normal normal bold 16px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+}
+
+.address-label {
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.42px;
+  color: #3b3737;
+}
+
+.label-location {
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+  width: 116px;
+}
+
+.cancelorder {
+  position: absolute;
+  top: 315px;
+  left: 40%;
+  width: 415px;
+  height: 210px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+}
+
+.cancelorder .upper {
+  display: flex;
+  padding: 12px 22px;
+  justify-content: space-between;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 2px 2px 1px 1px;
+  color: white;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.34px;
+}
+
+.cancelorder .lower p span {
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.34px;
+  color: #5861ae;
+}
+
+.cancelorder .upper p button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.cancelorder .lower {
+  height: 167px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancelorder .lower div:first-child {
+  margin-left: 38px;
+  margin-right: 28px;
+}
+
+.cancelorder .lower div:last-child p {
+  width: 218px;
+  height: 38px;
+  text-align: center;
+  letter-spacing: 0.34px;
+}
+
+.cancelorder .lower div:last-child button {
+  margin-top: 28px;
+  width: 107px;
+  height: 32px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  font-size: 600;
+  font-size: 14px;
+  font-style: Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}

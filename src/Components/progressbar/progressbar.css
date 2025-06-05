@@ -1,0 +1,63 @@
+.progrss-details {
+  background-color: #ffffff;
+  height: 81.25px;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  align-items: center;
+}
+
+.step-main{
+  display: flex;
+}
+
+.step {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding-left: 83.8px;
+  padding-top: 22px;
+  position: relative;
+}
+
+.step .notcheck-circle {
+  margin-right: 4px;
+  border: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 9px;
+}
+
+.step p:nth-child(2) {
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0.29px;
+  color: #1b2734;
+  margin-right: 40px;
+}
+
+.label{
+  width: 80px;
+}
+
+.step p:last-child{
+    /* align-content: first baseline; */
+    position: absolute;
+    top: 12px;
+    left: 165px;
+}
+
+.lastlabel{
+  display: contents;
+}
+
+.checkcircle{
+  background-color: blue;
+  color: white;
+}
+
+.linecheck{
+  color: blue;
+}

@@ -1,0 +1,150 @@
+.sign-in-main {
+  height: 769px;
+  display: flex;
+}
+
+.sign-in-main .left-block {
+  background-color: #ffffff;
+  width: 50%;
+  text-align: left;
+  padding-left: 152px;
+}
+
+.sign-in-main .right-block {
+  background: #b9c0fd1a 0% 0% no-repeat padding-box;
+  width: 50%;
+  text-align: left;
+  padding-left: 130px;
+}
+
+.sign-in-main .left-block .p1 {
+  font-size: 100px;
+  font-family: Avenir;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #5861ae;
+  text-transform: capitalize;
+  width: 411px;
+  margin: 149.5px 0px 14px 0px;
+}
+
+.sign-in-main .left-block .p2 {
+  font-size: 20px;
+  font-family: Avenir;
+  font-weight: 26px;
+  letter-spacing: 0.8px;
+  color: #565657;
+  margin: 0px 0px 74px 0px;
+}
+
+.sign-in-main .left-block .p3 {
+  letter-spacing: 0.64px;
+  color: #565657;
+  font-size: 16px;
+  font-weight: 26px;
+  font-family: Avenir;
+}
+
+.register-btn a {
+  text-decoration: none;
+}
+
+.sign-in-main .left-block .register-btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 16px;
+  border: 2px solid #4552c1;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #4552c1;
+}
+
+.right-block .p1 {
+  margin: 182px 0 65px 0;
+  font-size: 32px;
+  font-weight: 60px;
+  font-family: Avenir;
+  letter-spacing: 1.28px;
+  color: #4552c1;
+}
+
+.right-block .form-sign-in{
+  position:absolute ;
+}
+
+.right-block .form-sign-in input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #989898;
+  width: 398px;
+  font-size: 17px;
+  font-weight: 27px;
+  font-style: Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  padding-bottom: 15px;
+}
+
+.right-block .form-sign-in input:first-child {
+  /* margin-bottom: 50px; */
+}
+
+.right-block .form-sign-in input:first-child {
+  /* margin-top: 50px; */
+}
+
+.error {
+  font: italic normal normal 12px/27px Open Sans;
+  letter-spacing: 0.42px;
+  color: #ef1a1a;
+  text-align: right;
+  width: 398px;
+  height: 22px;
+}
+
+.right-block .form-sign-in p {
+  margin-left: 281px;
+  font-size: 16px;
+  font-weight: 26px;
+  font-family: Avenir;
+  letter-spacing: 0.64px;
+  color: #4552c1;
+  text-transform: capitalize;
+  margin-bottom: 68.5px;
+}
+
+.right-block .form-sign-in button {
+  margin-left: 112px;
+  width: 150px;
+  height: 50px;
+  background: #4552c1 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  font: normal normal normal 12px/15px Open Sans;
+  letter-spacing: 0.42px;
+  color: #5861ae;
+  margin-bottom: 10px;  
+}
+
+br {
+  display: none;
+}
+
+.padlock{
+  position: absolute;
+  right: 12px;
+}
+
+.right-block .form-sign-in .err-red {
+  color: #EF1A1A;
+  border-bottom : 1px solid #EF1A1A;
+}

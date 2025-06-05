@@ -1,0 +1,133 @@
+.regestration-main-div {
+  display: flex;
+  height: 766px;
+  background-color: #ffffff;
+}
+
+.regestration-main-div .left-reg {
+  width: 100%;
+  padding-left: 69.25px;
+  text-align: left;
+}
+
+.regestration-main-div .left-reg .left-block .p1 {
+  width: 235px;
+  margin-top: 259px;
+  font: normal normal 900 62px/80px Avenir;
+  letter-spacing: 2.48px;
+  color: #5861ae;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.regestration-main-div .left-reg .left-block .p2 {
+  width: 175px;
+  font: normal normal normal 20px/32px Avenir;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.regestration-main-div .left-reg .left-block .p3 {
+  margin-top: 139.5px;
+  font: normal normal normal 16px/26px Avenir;
+  letter-spacing: 0.64px;
+  color: #565657;
+  text-transform: capitalize;
+}
+
+.regestration-main-div .left-reg .left-block .register-btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 20.5px;
+  border: 2px solid #5861ae;
+  border-radius: 4px;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #5861ae;
+  background-color: transparent;
+}
+
+
+.regestration-main-div .right-reg {
+  min-width: 1038px;
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+  padding-left: 63px;
+}
+
+.regestration-main-div .right-reg .heading p {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 60px;
+  font-family: Avenir;
+  letter-spacing: 1.28px;
+  color: #5861ae;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.regestration-main-div .right-reg .form-div form .input-fileds {
+  display: flex;
+  flex-direction: row;
+}
+
+.regestration-main-div .right-reg .form-div form .input-fileds .left-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.regestration-main-div .right-reg .form-div form .input-fileds .right-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.regestration-main-div
+  .right-reg
+  .form-div
+  form
+  .input-fileds
+  .right-form
+  input,
+.regestration-main-div .right-reg .form-div form .input-fileds .left-form input,
+select {
+  border: none;
+  border-bottom: 1px solid #989898;
+  width: 398px;
+  background-color: transparent;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838f;
+  padding-bottom: 15px;
+  margin-bottom: 55px;
+  margin-right: 100px;
+  outline: none;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-agreement {
+  width: 22px;
+  height: 22px;
+}
+
+.agreement p a {
+  font-size: 14px;
+  font-weight: 20px;
+  letter-spacing: 0.49px;
+  margin-left: 12px;
+}
+
+.btn-register-btn {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin-top: 41.5px;
+}
